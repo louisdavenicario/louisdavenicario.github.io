@@ -56,7 +56,7 @@
     <main id="mainwrap">
         <!-- section hero -->
         <div id="sectionhero" class="sectionblock">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
                     <div class="col-lg-6 pr-0 mr-0 pl-lg-0 pr-lg-5 mr-lg-0 mt-3 mt-lg-0 align-items-center justify-content-center align-items-lg-left justify-content-lg-left text-center text-lg-left d-flex order-1 order-lg-0 ">
                         <div class="infohero ">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
                         <div class="heroimg">
-                            <img src="./images/pfp_circle.png" alt="photo" class="img-fluid heroimg__poto" />
+                            <img src="./images/new_pfp.png" alt="photo" class="img-fluid heroimg__poto" />
                         </div>
                     </div>
                 </div>
@@ -129,9 +129,9 @@
                                         <span class="mt-4 mb-2 d-block infoabout__title">SKILLS</span>
                                             <li>Logo Design</li>
                                             <li>Graphic Design</li>
+                                            <li>UI Design</li>
                                             <li>Photo/Video Editing</li>
                                             <li>Highly organized and efficient</li>
-                                            <li>Expert in Microsoft Applications</li>
                                     </div>
                                 </div>
                             </div>
@@ -161,6 +161,31 @@
                                 <div class="counterwrap">
                                     <p class="counterwrap__counternum"></p>
                                     <p><i class="fa-brands fa-js"></i><b>JavaScript</b></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="counterwrap">
+                                    <p class="counterwrap__counternum"></p>
+                                    <p><i class="fa-brands fa-git-alt"></i> <b>Git</b></p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="counterwrap">
+                                    <p class="counterwrap__counternum"></p>
+                                    <p><i class="fa-brands fa-vuejs"></i> <b>Vue.js</b></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="counterwrap">
+                                    <p class="counterwrap__counternum"></p>
+                                    <p><i class="fa-solid fa-triangle" style="transform: rotate(0deg); color: #000000;"></i> <b>Vercel</b></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="counterwrap">
+                                    <p class="counterwrap__counternum"></p>
+                                    <p><i class="fa-solid fa-bolt" style="color: #3ECF8E;"></i> <b>Supabase</b></p>
                                 </div>
                             </div>
                         </div>
@@ -222,11 +247,14 @@
                                 <li data-group="all" class="active">All</li>
                                 <li data-group="certificates">Certificates</li>
                                 <li data-group="projects">Projects</li>
+                                <li data-group="UI Designs">UI Designs</li>
+                                <li data-group="UI Designs">Logo Designs</li>
+                                <li data-group="UI Designs">Graphic Designs</li>
                             </ul>
                         </div>
                         <!-- end filter portfolio -->
                         <div id="porfoliowarp" class="grid-gutter-md grid-col-3">
-                            <!--  PORFOLIO ITEM -->
+                            <!--  CERTIFICATES ITEMS -->
                             <div class="porfoliowarp__item" data-groups='["certificates"]'>
                                 <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="./images/html_cert.jpg">
                                     <i class="fa-solid fa-circle-plus"></i>
@@ -234,8 +262,7 @@
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
-                            <!--  PORFOLIO ITEM -->
+                        
                             <div class="porfoliowarp__item" data-groups='["certificates"]'>
                                 <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="./images/css_cert.jpg">
                                     <i class="fa-solid fa-circle-plus"></i>
@@ -243,8 +270,7 @@
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
-                            <!--  PORFOLIO ITEM -->
+                            
                             <div class="porfoliowarp__item" data-groups='["certificates"]'>
                                 <a class="porfoliowarp__portolink  glightbox" data-glightbox="type: image" href="./images/js_cert.jpg">
                                     <i class="fa-solid fa-circle-plus"></i>
@@ -252,8 +278,7 @@
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
-                            <!--  PORFOLIO ITEM -->
+                           
                             <div class="porfoliowarp__item" data-groups='["certificates"]'>
                                 <a class="porfoliowarp__portolink  glightbox" data-glightbox="type: image" href="./images/fcc_cert.png">
                                     <i class="fa-solid fa-circle-plus"></i>
@@ -261,25 +286,41 @@
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
-                            <!--  PORFOLIO ITEM -->
+                            <!--  END OF CERTIFICATES ITEMS -->
+
+                            <!-- PROJECTS ITEMS -->
                             <div class="porfoliowarp__item" data-groups='["projects"]'>
+                                <a class="porfoliowarp__portolink" href="https://digitalphotobooth.vercel.app/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    <div class="porfoliowarp__content" style="background: url(./images/photobooth_project.png) no-repeat center; background-position: center; background-size: cover;">
+                                    </div>
+                                </a>
+                            </div>
+                            <!--  END OF PROJECTS ITEMS -->
+
+                            <!--  UI DESIGNS ITEMS -->
+                            <div class="porfoliowarp__item" data-groups='["UI Designs"]'>
                                 <a class="porfoliowarp__portolink  glightbox" data-glightbox="type: image" href="./images/project_1.png">
                                     <i class="fa-solid fa-circle-plus"></i>
                                     <div class="porfoliowarp__content" style="background: url(./images/project_1.png) no-repeat center;  background-position: center;
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
-                            <!--  PORFOLIO ITEM -->
-                            <div class="porfoliowarp__item" data-groups='["projects"]'>
+                            
+                            <div class="porfoliowarp__item" data-groups='["UI Designs"]'>
                                 <a class="porfoliowarp__portolink  glightbox" data-glightbox="type: image" href="./images/project_2.jpg">
                                     <i class="fa-solid fa-circle-plus"></i>
                                     <div class="porfoliowarp__content" style="background: url(./images/project_2.jpg) no-repeat center;  background-position: center;
                         background-size: cover;"></div>
                                 </a>
                             </div>
-                            <!-- END PORTFOLIO ITEM -->
+                            <!-- END OF UI DESIGNS ITEMS -->
+                             
+                            <!--  LOGO DESIGNS ITEMS -->
+                            <!-- END OF LOGO DESIGNS ITEMS -->
+
+                            <!--  GRAPHIC DESIGNS ITEMS -->
+                            <!-- END OF GRAPHIC DESIGNS ITEMS -->
                         </div>
                     </div>
                 </div>
