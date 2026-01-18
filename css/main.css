@@ -344,7 +344,7 @@
         height: 350px;
         width: 350px;
         object-fit: cover;
-        box-shadow: 20px 20px 1px 1px #4682b4;
+        box-shadow: 15px 10px 1px 1px #4682b4;
         border: 7px solid;
     }
     
