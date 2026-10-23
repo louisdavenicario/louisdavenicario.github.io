@@ -1,0 +1,15 @@
+{
+  "name": "louis-dave-nicario-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio of Louis Dave Nicario",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'No build step required'",
+    "lint": "echo 'No lint required'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
